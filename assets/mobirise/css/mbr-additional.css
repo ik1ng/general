@@ -1231,6 +1231,18 @@ a {
   padding-bottom: 120px;
   background-color: #151519;
 }
+@media (min-width: 1200px) {
+  .cid-sgLMops8yH .container,
+  .cid-sgLMops8yH .container-lg,
+  .cid-sgLMops8yH .container-md,
+  .cid-sgLMops8yH .container-sm,
+  .cid-sgLMops8yH .container-xl {
+    max-width: 1499px;
+  }
+  .cid-sgLMops8yH .mbr-text {
+    max-width: 600px;
+  }
+}
 .cid-sgLMops8yH .card-wrapper {
   display: flex;
   padding: 0 1.5rem;
@@ -1299,11 +1311,6 @@ a {
 }
 .cid-sgLMops8yH .card-title {
   color: #fafafa;
-}
-@media (min-width: 1200px) {
-  .cid-sgLMops8yH .mbr-text {
-    max-width: 600px;
-  }
 }
 @media (max-width: 767px) {
   .cid-sgLMops8yH .card-wrapper {

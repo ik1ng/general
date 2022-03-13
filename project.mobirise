@@ -59,7 +59,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "screenshot": "screenshot.png",
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "mbrsiteDomain": "55ilg21hms"
   },
   "pages": {
@@ -746,6 +746,14 @@
             "& when (@bg-type = \"image\")": {
               "background-image": "url(@bg-value)"
             },
+            "@media (min-width: 1200px)": {
+              ".container, .container-lg, .container-md, .container-sm, .container-xl": {
+                "max-width": "1499px"
+              },
+              ".mbr-text": {
+                "max-width": "600px"
+              }
+            },
             ".card-wrapper": {
               "display": "flex",
               "padding": "0 1.5rem",
@@ -810,11 +818,6 @@
             },
             ".card-title": {
               "color": "#fafafa"
-            },
-            "@media (min-width: 1200px)": {
-              ".mbr-text": {
-                "max-width": "600px"
-              }
             },
             "@media (max-width: 767px)": {
               ".card-wrapper": {

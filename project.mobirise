@@ -748,7 +748,7 @@
             },
             "@media (min-width: 1200px)": {
               ".container, .container-lg, .container-md, .container-sm, .container-xl": {
-                "max-width": "1499px"
+                "max-width": "1499px !important"
               },
               ".mbr-text": {
                 "max-width": "600px"

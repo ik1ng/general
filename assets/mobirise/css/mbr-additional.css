@@ -1237,7 +1237,7 @@ a {
   .cid-sgLMops8yH .container-md,
   .cid-sgLMops8yH .container-sm,
   .cid-sgLMops8yH .container-xl {
-    max-width: 1499px;
+    max-width: 1499px !important;
   }
   .cid-sgLMops8yH .mbr-text {
     max-width: 600px;
